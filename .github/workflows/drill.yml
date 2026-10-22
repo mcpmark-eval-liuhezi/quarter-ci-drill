@@ -1,0 +1,10 @@
+name: drill
+
+on: push
+
+jobs:
+  drill:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Always fail on purpose
+        run: exit 1
